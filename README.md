@@ -10,6 +10,8 @@ To build a fire department at a building location, we need to destroy that build
 
 Example:
 
+![Example](https://github.com/Apocrypse/CS5800_Algorithms/blob/master/pa1_example.png?raw=true)
+
 Building a fire department in building 1 would protect buildings 1, 2 and 3. Building a fire department in building 2 would protect buildings 1, 2 and 3. Building a fire department in building 3 would protect buildings 1, 2 and 3. Building a fire department in building 4 would protect building 4.
 
 So to protect all Boston with minimum cost, we should build a fire department in building 2, and one in building 4 with a total cost of 5.
