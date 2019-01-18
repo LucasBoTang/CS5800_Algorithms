@@ -8,7 +8,7 @@ Fire departments can only be built where a building already exists. In case of a
 
 To build a fire department at a building location, we need to destroy that building first and build a fire department at its place. Each building you destroy has a cost, and your task is to minimize that cost while protecting all of Boston from fire.
 
-Example:
+### Example:
 
 ![Example](https://github.com/Apocrypse/CS5800_Algorithms/blob/master/pa1_example.png?raw=true)
 
@@ -20,13 +20,13 @@ Note that even if the fire truck leaving from building 2 can reach building 4, i
 
 The first Sample below (Sample 0), is this example explained above.
 
-Input Format
+### Input Format
 
 The first line will be n, the number of buildings in Boston 1<= n <= 10^5. The second line has n space separated integers. The ith integer is the cost of destroying the ith building in Boston. The cost of the building Ci will be 1<= Ci <= 10^9.
 
 The third line will be m, the number of one way roads in Boston 0<= m <= 3*10^5. Each of the next m lines will contain a pair ui and vi where 1<= ui, vi <=n and ui!=vi. A pair ui, vi means there is a one way road from building ui to building vi. There will be at most 1 road between 2 buildings in the same direction.
 
-Constraints
+### Constraints
 
 1<= n <= 10^5 1<= Ci <= 10^9 0<= m <= 3*10^5
 
@@ -40,16 +40,16 @@ Legolas, Gimli and Aragorn have just fought an army of orcs and now want to rela
 
 You have to print the answer modulo 1000000007 (10^9+7).
 
-Input Format
+### Input Format
 
 There is only one line in input with 5 space-separated integers - a b c d n
 
 The last 3 test cases are for Extra Credit.
 
-Constraints
+### Constraints
 
 1 <= a,b,c,d <= 10 and a,b,c,d are unique 1 <= n <= 10^5 For extra credit: 1 <= n <= 10^18
 
-Output Format
+### Output Format
 
 Print the number of ways Legolas can get to the target number modulo 1000000007 (10^9+7). If it is impossible, print 0.
