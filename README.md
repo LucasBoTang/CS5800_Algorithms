@@ -33,3 +33,23 @@ Constraints
 Output Format
 
 Print 1 integer: the minimum cost of securing all Boston from fire.
+
+## Assignment2: Fun with the Fellowship
+
+Legolas, Gimli and Aragorn have just fought an army of orcs and now want to relax for the day. Their way of having fun is to play an archery contest with Legolas trying to hit any object that the other two point to. However, Aragorn soon realises that Legolas is too good for this game. He adds a twist to the game. Aragorn will now point to 4 targets and assign some number of points (a,b,c,d) to those 4 targets - the points will be unique for each target. Gimli will then give Legolas a number n and Legolas has to tell how many ways he can hit any of those 4 targets one after the other in any order so that the total points scored will be n. Now Legolas is a genius in archery but he's stumped by this question. Help Legolas!
+
+You have to print the answer modulo 1000000007 (10^9+7).
+
+Input Format
+
+There is only one line in input with 5 space-separated integers - a b c d n
+
+The last 3 test cases are for Extra Credit.
+
+Constraints
+
+1 <= a,b,c,d <= 10 and a,b,c,d are unique 1 <= n <= 10^5 For extra credit: 1 <= n <= 10^18
+
+Output Format
+
+Print the number of ways Legolas can get to the target number modulo 1000000007 (10^9+7). If it is impossible, print 0.
