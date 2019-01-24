@@ -38,11 +38,17 @@ Print 1 integer: the minimum cost of securing all Boston from fire.
 
 `
 4
+
 5 3 4 2
+
 4
+
 1 2
+
 2 3
+
 3 1
+
 3 4
 `
 
@@ -56,17 +62,29 @@ Print 1 integer: the minimum cost of securing all Boston from fire.
 
 `
 10
+
 8 1 3 9 5 7 3 9 9 9
+
 10
+
 5 8
+
 1 10
+
 4 1
+
 6 10
+
 7 3
+
 6 4
+
 5 10
+
 3 6
+
 4 9
+
 3 5
 `
 
