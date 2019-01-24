@@ -36,21 +36,19 @@ Print 1 integer: the minimum cost of securing all Boston from fire.
 
 ### Sample Input 0
 
-`
-4
+`4`
 
-5 3 4 2
+`5 3 4 2`
 
-4
+`4`
 
-1 2
+`1 2`
 
-2 3
+`2 3`
 
-3 1
+`3 1`
 
-3 4
-`
+`3 4`
 
 ### Sample Output 0
 
@@ -60,33 +58,31 @@ Print 1 integer: the minimum cost of securing all Boston from fire.
 
 ### Sample Input 1
 
-`
-10
+`10`
 
-8 1 3 9 5 7 3 9 9 9
+`8 1 3 9 5 7 3 9 9 9`
 
-10
+`10`
 
-5 8
+`5 8`
 
-1 10
+`1 10`
 
-4 1
+`4 1`
 
-6 10
+`6 10`
 
-7 3
+`7 3`
 
-6 4
+`6 4`
 
-5 10
+`5 10`
 
-3 6
+`3 6`
 
-4 9
+`4 9`
 
-3 5
-`
+`3 5`
 
 ### Sample Output 1
 
