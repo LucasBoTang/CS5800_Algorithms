@@ -36,7 +36,7 @@ Print 1 integer: the minimum cost of securing all Boston from fire.
 
 ### Sample Input 0
 
-'''
+`
 4
 5 3 4 2
 4
@@ -44,17 +44,17 @@ Print 1 integer: the minimum cost of securing all Boston from fire.
 2 3
 3 1
 3 4
-'''
+`
 
 ### Sample Output 0
 
-'''
+`
 5
-'''
+`
 
 ### Sample Input 1
 
-'''
+`
 10
 8 1 3 9 5 7 3 9 9 9
 10
@@ -68,13 +68,11 @@ Print 1 integer: the minimum cost of securing all Boston from fire.
 3 6
 4 9
 3 5
-'''
+`
 
 ### Sample Output 1
 
-'''
-63
-'''
+`63`
 
 ## Assignment2: Fun with the Fellowship
 
@@ -98,15 +96,11 @@ Print the number of ways Legolas can get to the target number modulo 1000000007 
 
 ### Sample Input 0
 
-'''
-2 3 5 7 8
-'''
+`2 3 5 7 8`
 
 ### Sample Output 0
 
-'''
-6
-...
+`6`
 
 ### Explanation 0
 
