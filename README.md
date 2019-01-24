@@ -30,9 +30,51 @@ The third line will be m, the number of one way roads in Boston 0<= m <= 3*10^5.
 
 1<= n <= 10^5 1<= Ci <= 10^9 0<= m <= 3*10^5
 
-Output Format
+### Output Format
 
 Print 1 integer: the minimum cost of securing all Boston from fire.
+
+### Sample Input 0
+
+'''
+4
+5 3 4 2
+4
+1 2
+2 3
+3 1
+3 4
+'''
+
+### Sample Output 0
+
+'''
+5
+'''
+
+### Sample Input 1
+
+'''
+10
+8 1 3 9 5 7 3 9 9 9
+10
+5 8
+1 10
+4 1
+6 10
+7 3
+6 4
+5 10
+3 6
+4 9
+3 5
+'''
+
+### Sample Output 1
+
+'''
+63
+'''
 
 ## Assignment2: Fun with the Fellowship
 
@@ -53,3 +95,19 @@ The last 3 test cases are for Extra Credit.
 ### Output Format
 
 Print the number of ways Legolas can get to the target number modulo 1000000007 (10^9+7). If it is impossible, print 0.
+
+### Sample Input 0
+
+'''
+2 3 5 7 8
+'''
+
+### Sample Output 0
+
+'''
+6
+...
+
+### Explanation 0
+
+The 6 ways of scoring a total of 8 are (2 + 2 + 2 + 2), (2 + 3 + 3), (3 + 2 + 3), (3 + 3 + 2), (3 + 5), and (5 + 3).
